@@ -1,6 +1,6 @@
 package Bundle::Kwiki;
 
-$VERSION = "0.01";
+$VERSION = "0.02";
 
 1;
 
@@ -30,10 +30,65 @@ If you'd like to get other modules added to this bundle contact
 Gabor Szabo L<mailto:gabor@pti.co.il>
 
 
+L<Kwiki> - The Kwiki Wiki Building Framework, further details at L<http://www.kwiki.org/>
+
+L<Kwiki::RecentChanges> - List pages that were recently changed (how long ago can be configured)
+
+L<Kwiki::UserName> - Enable user to set their name in the C<preferences> so changes will show they did it
+
+L<Kwiki::UserPreferences> - Enable the setting of various User Preferences
+
+L<Kwiki::Archive::Rcs> - Version control using RCS
+
+L<Kwiki::Comments> - Kwiki::Comments is a Kwiki plugin that allow anyone to leave comments 
+to a Page, just like Slash comments or MT comments.
+
+L<Kwiki::NewPage> - Adds a naviagion link/button to create a new page 
+without first adding a link to that page.
+
+L<Kwiki::Favorites> - Users will be allowed to select pages as their C<Favorites>. Links to those
+pages are available through a link from the navigation bar.
+
+L<Kwiki::Revisions> - Assuming you have one of the C<Archive> plugins enabled this plugin let's
+users see prvious versions of a page. (for diffs see L<Kwiki::Diff>)
+
+L<Kwiki::Search> - Enables a plain text search button for searching the content of the pages
+
+L<Kwiki::RecentChangesRSS> - Kwiki RSS Plugin
+
+L<Kwiki::Icons::Gnome> - This is a Kwiki icons package that includes 
+icons from Gnome. Specifically, they were copied from the 
+gnome-icon-theme Debian package.
+
+L<Kwiki::Diff> - Display differences between the current wiki page and 
+older revisions. Need one of the C<Archive> plugins and the L<Kwiki::Revisions> plugin
+
+L<Kwiki::Autoformat> - Autoformat preformatted text using L<Text::Autoformat>
+
+L<Kwiki::Email> - Enables one to set an e-mail address in the C<preferences>
+
+=head1 Thanks
+
+For the authors of Kwiki and the Kwiki community L<http://www.kwiki.org/>
+and especially to Rick Measham for his direct input.
+
+=head1 AUTHOR
+
+ Gabor Szabo L<mailto:gabor@pti.co.il>
+ L<http://www.szabgab.com/>
+
+=head1 COPYRIGHT
+
+ Copyright 2004 by Gabor Szabo L<http://www.szabgab.com/>.
+
+ This program is free software; you can redistribute it and/or
+ modify it under the same terms as Perl itself.
+
+
 =begin _for_CPAN_only
 
 CONTENTS is the actually listing of the modules that is used by CPAN.pm to install.
-Humans can skip this part of the document.
+Humans can skip the rest of the document.
 
 =head1 CONTENTS
 
@@ -63,23 +118,12 @@ Kwiki::Icons::Gnome
 
 Kwiki::Diff
 
+Kwiki::Autoformat
+
+Kwiki::Email
+
+
 =end _for_CPAN_only
-
-=head1 Thanks
-
-For the authors of Kwiki and the Kwiki community
-
-=head1 AUTHOR
-
- Gabor Szabo L<mailto:gabor@pti.co.il>
- L<http://www.szabgab.com/>
-
-=head1 COPYRIGHT
-
- Copyright 2004 by Gabor Szabo L<http://www.szabgab.com/>.
-
- This program is free software; you can redistribute it and/or
- modify it under the same terms as Perl itself.
 
 =cut 
 
